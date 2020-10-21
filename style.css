@@ -1,0 +1,59 @@
+
+body
+{
+    background: purple;
+    flex-direction: row;
+    justify-content: center;
+    height: 50vh;
+    width: 100vh;
+    margin: auto;
+    margin-top: 100px;
+}
+.container
+{
+    background: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 60px;
+    padding: 50px 50px;
+}
+.row
+{
+    display: flex;
+    flex-direction: row;
+}
+.col
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name
+{
+    margin: 20px 0;
+    font-size: large;
+}
+.round-runs
+{
+ font-size: xx-large;
+ width: 200px;
+ justify-content: space-evenly;
+}
+.score
+{
+  font-size: xx-large;
+  margin: auto;
+}
+.profile-icon
+{
+   border-radius: 50%;
+
+   border: 2px solid bisque;
+}
+#strike-button
+{
+    border-radius: 25px;
+    background: linear-gradient ();
+    background-color: hsl(hue, saturation, lightness);
+}
